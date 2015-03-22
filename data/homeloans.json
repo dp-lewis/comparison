@@ -1,0 +1,37 @@
+[{
+  "title": "loans.com.au Dream Home Loan Essentials",
+  "description": "A low interest rate variable home loan suited for new purchases or refinancing.",
+  "provider": "loans.com.au",
+  "interestRate": "4.23%",
+  "comparisonRate": "4.25%",
+  "applicationFee": "$0",
+  "ongoingFees": "$0",
+  "maxLVR": "80%",
+  "monthlyPayment": "$736.15",
+  "siteURL": "http://localhost",
+  "thumbnailImage": "http://findercdn.com.au/home-loans/images/product/loan-icon.jpg"
+},{
+  "title": "State Custodians Standard Variable Offset Loan",
+  "description": "",
+  "provider": "",
+  "interestRate": "4.34%",
+  "comparisonRate": "4.55%",
+  "applicationFee": "$0",
+  "ongoingFees": "$299",
+  "maxLVR": "95%",
+  "monthlyPayment": "$745.83",
+  "siteURL": "http://localhost",
+  "thumbnailImage": ""
+},{
+  "title": "",
+  "description": "",
+  "provider": "",
+  "interestRate": "%",
+  "comparisonRate": "%",
+  "applicationFee": "$",
+  "ongoingFees": "$",
+  "maxLVR": "%",
+  "monthlyPayment": "$",
+  "siteURL": "http://localhost",
+  "thumbnailImage": ""
+}]

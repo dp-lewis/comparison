@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Homeloan Comparison</title>
+</head>
+<body>
+
+	<div id="comparison" class="comparison">
+	  	<div class="comparison__filter">
+	  		<form>
+	  		   <div>
+		  		   <label for="comparison-search">Search</label>
+		  		   <input type="text" id="comparison-search" name="search" placeholder="e.g. ANZ something" />
+	  		   </div>
+	  		   <div>
+	  		       <label for="lvr">How much of the deposit will you have?</label>
+	  		       <input type="text" name="lvr" id="comparison-lvr" />%
+	  		   </div>
+	  		   <div>
+	  		   	<button>Update list</button>
+	  		   </div>
+	  		</form>
+	  	</div>
+	  	<div class="comparison__listing">
+	  	   <ul id="comparison-listing">
+
+	  	   </ul>
+	  	</div>
+	</div>
+
+	<script type="text/html" id="comparison-list-item-template">
+	  <li>
+	    <h3><%= title %></h3>
+	  </li>
+	</script>
+
+	<script src="bower_components/jQuery/dist/jquery.js"></script>
+	<script src="bower_components/underscore/underscore.js"></script>
+	<script src="bower_components/backbone/backbone.js"></script>
+	<script src="js/models.js"></script>
+	<script src="js/collections.js"></script>
+	<script src="js/views.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

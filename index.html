@@ -9,14 +9,24 @@
 	<div id="comparison" class="comparison">
 	  	<div class="comparison__filter">
 	  		<form>
+	  			<fieldset>
+	  				<legend>General search</legend>
 	  		   <div>
 		  		   <label for="comparison-search">Search</label>
 		  		   <input type="text" id="comparison-search" name="search" placeholder="e.g. ANZ something" />
 	  		   </div>
+	  		</fieldset>
+	  		<fieldset>
+	  			<legend>Do you know how much you'll be spending?</legend>
 	  		   <div>
-	  		       <label for="lvr">How much of the deposit will you have?</label>
-	  		       <input type="text" name="lvr" id="comparison-lvr" />%
+	  		       <label for="comparison-property-price">How much is the property you're looking to buy?</label>
+	  		       $<input type="number" name="property-price" id="comparison-property-price" />
 	  		   </div>
+	  		   <div>
+	  		       <label for="comparison-deposit">How much of the deposit will you have?</label>
+	  		       $<input type="number" name="deposit" id="comparison-deposit" />
+	  		   </div>
+	  		</fieldset>
 	  		   <div>
 	  		   	<button>Update list</button>
 	  		   </div>
@@ -31,7 +41,9 @@
 
 	<script type="text/html" id="comparison-list-item-template">
 	  <li>
+	  	<img src="<%= thumbnailImage %>" alt="Logo for <%= provider %>" />
 	    <h3><%= title %></h3>
+	    <p><%= description %></p>
 	  </li>
 	</script>
 

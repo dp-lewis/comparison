@@ -26,6 +26,10 @@ FilteredView = Backbone.View.extend({
     // get the search
     this.collection.reset(this.originalCollection.search($('#comparison-search').val()));
 
+    // get the propery cost
+    console.log(parseFloat($('#comparison-property-price').val()));
+    console.log(parseFloat($('#comparison-deposit').val()));
+
     // sort by something...
     return false;
   }
